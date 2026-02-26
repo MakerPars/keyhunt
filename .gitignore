@@ -42,6 +42,10 @@ Testing/
 .idea/
 .vscode/
 .vs/
+*.vcxproj
+*.vcxproj.filters
+*.filters
+*.user
 *.vcxproj.user
 *.suo
 *.userosscache
