@@ -1,0 +1,53 @@
+# Binaries
+/KeyHunt
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Objects and static/shared libs
+*.o
+*.obj
+*.a
+*.lib
+*.exp
+*.pdb
+*.idb
+*.ilk
+
+# CUDA build artifacts
+*.ptx
+*.cubin
+*.fatbin
+*.nvvp
+
+# Build directories
+/obj/
+/build/
+/build2/
+/cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# IDE/editor
+.idea/
+.vscode/
+.vs/
+*.vcxproj.user
+*.suo
+*.userosscache
+*.sln.docstates
+*~
+
+# Runtime outputs and logs
+Found.txt
+*.log
